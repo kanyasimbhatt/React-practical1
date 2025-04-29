@@ -16,6 +16,7 @@ function App() {
       const response = await fetch(url);
       if (!response.ok) {
         console.log("something is not right");
+        return;
       }
 
       const data = await response.json();
