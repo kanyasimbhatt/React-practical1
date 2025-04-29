@@ -1,39 +1,15 @@
-import { useEffect, useState } from "react";
 import "./App.css";
 import profile from "../public/profile.png";
-// import useFetch from './customHook/useFetch';
+
 
 function App() {
-  const [data, setData] = useState({
+  const data ={
     login: "kanyasimbhatt",
     public_repos: 25,
     followers: 1,
     following: 2,
-  });
-
-  async function getData(url: string) {
-    try {
-      const response = await fetch(url);
-      if (!response.ok) {
-        console.log("something is not right");
-        return;
-      }
-
-      const data = await response.json();
-      setData({
-        login: data.login,
-        public_repos: data.public_repos,
-        followers: data.followers,
-        following: data.following,
-      });
-    } catch (err) {
-      console.log(err);
-    }
   }
 
-  useEffect(() => {
-    getData(`https://api.github.com/users/kanyasimbhatt`);
-  }, []);
   return (
     <div className="body">
       <div className="main-div">
@@ -51,7 +27,11 @@ function App() {
 
         <div className="github-profile">
           <div className="profile-logo-section">
-            <img src={profile} className="profile-image"></img>
+            <img
+              src={profile}
+              className="profile-image"
+              alt="Profile picture of github profile"
+            ></img>
           </div>
           <div className="profile-information">
             <p>Username: {data.login}</p>
