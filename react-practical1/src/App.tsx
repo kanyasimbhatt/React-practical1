@@ -1,18 +1,18 @@
 import "./App.css";
 import profile from "../public/profile.png";
 
-
 function App() {
-  const data ={
+  const data = {
     login: "kanyasimbhatt",
     public_repos: 25,
     followers: 1,
     following: 2,
-  }
+  };
 
   return (
     <div className="body">
       <div className="main-div">
+        <h1>Hello React</h1>
         <p>Name: Kanya Bhatt</p>
         <p>
           Mail:{" "}
