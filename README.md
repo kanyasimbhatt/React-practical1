@@ -12,6 +12,6 @@
 - Signin with GitHub on netlify or vercel. Connect your branch and deploy your changes (connect with your mentors if needed).
 - Share the Repo, PRs and live deployed link here.
 
-#### Live Link:
+#### Live Link for the application
 
 https://sprightly-marshmallow-39ccca.netlify.app/
