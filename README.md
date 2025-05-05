@@ -1,6 +1,7 @@
 # React Practical - I
 
 ## Description of the task:
+
 - Use create-react-app and create a React app
 - Create a public github repo and give access to mentors and training coordinator
 - Go through the file structure and remove all the unnecessary components and utilities
@@ -10,3 +11,7 @@
 - Generate a build (connect with your mentors if needed)
 - Signin with GitHub on netlify or vercel. Connect your branch and deploy your changes (connect with your mentors if needed).
 - Share the Repo, PRs and live deployed link here.
+
+#### Live Link for the application
+
+https://sprightly-marshmallow-39ccca.netlify.app/
